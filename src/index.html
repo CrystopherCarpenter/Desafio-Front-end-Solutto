@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="Desafio front" />
+        <meta name="author" content="Crystopher Carpenter" />
+
+        <title>Desafio front</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200;300;400;500;600;700&family=Passion+One:wght@400;700;900&display=swap"
+            rel="stylesheet"
+        />
+
+        <link rel="stylesheet" href="css/reset.css" />
+        <link rel="stylesheet" href="css/styles.css" />
+    </head>
+
+    <body>
+        <div class="filter"></div>
+        <div class="alert">
+            <h1>Essa página contém som autoexecutável</h1>
+            <h2>Clique abaixo para continuar</h2>
+            <button onclick="startAnimation(4000, this.parentElement)">
+                Continuar
+            </button>
+        </div>
+
+        <img
+            src="https://storage.googleapis.com/mokaly_public/assets/avatars/mokaly-avatar-cup-2.png"
+            alt="avatar"
+        />
+        <img
+            src="https://storage.googleapis.com/mokaly_public/assets/avatars/mokaly-avatar-cup-3.png"
+            alt="avatar"
+        />
+        <img
+            src="https://storage.googleapis.com/mokaly_public/assets/avatars/mokaly-avatar-cup-4.png"
+            alt="avatar"
+        />
+        <img
+            src="https://storage.googleapis.com/mokaly_public/assets/avatars/mokaly-avatar-cup-5.png"
+            alt="avatar"
+        />
+        <img
+            src="https://storage.googleapis.com/mokaly_public/assets/avatars/mokaly-avatar-cup-6.png"
+            alt="avatar"
+        />
+        <button class="replay" onclick="startAnimation(0, this)">
+            Repetir animação
+        </button>
+        <script src="js/script.js"></script>
+    </body>
+</html>
